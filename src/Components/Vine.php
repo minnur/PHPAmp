@@ -5,12 +5,12 @@
  * Vine component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Vine Component.
  */
-class Vine extends Component {
+class Vine extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

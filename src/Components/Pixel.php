@@ -5,12 +5,12 @@
  * Pixel component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Pixel Component.
  */
-class Pixel extends Component {
+class Pixel extends \PHPAmpHTML\Base {
 
   protected $src;
 

@@ -5,12 +5,12 @@
  * Carousel component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Carousel Component.
  */
-class Carousel extends Component {
+class Carousel extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

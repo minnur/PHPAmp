@@ -5,12 +5,12 @@
  * Ad component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Ad Component.
  */
-class Ad extends Component {
+class Ad extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

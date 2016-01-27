@@ -5,12 +5,12 @@
  * Youtube component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Youtube Component.
  */
-class Youtube extends Component {
+class Youtube extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

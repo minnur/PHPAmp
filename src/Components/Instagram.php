@@ -5,12 +5,12 @@
  * Instagram component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Instagram Component.
  */
-class Instagram extends Component {
+class Instagram extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

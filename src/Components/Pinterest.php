@@ -5,12 +5,12 @@
  * Pinterest component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Pinterest Component.
  */
-class Pinterest extends Component {
+class Pinterest extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

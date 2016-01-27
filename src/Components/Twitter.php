@@ -5,12 +5,12 @@
  * Twitter component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Twitter Component.
  */
-class Twitter extends Component {
+class Twitter extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;

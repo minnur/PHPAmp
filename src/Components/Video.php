@@ -5,12 +5,12 @@
  * Video component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Video Component.
  */
-class Video extends Component {
+class Video extends \PHPAmpHTML\Base {
 
   protected $src;
   protected $width;

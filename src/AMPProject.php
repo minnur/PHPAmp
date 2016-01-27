@@ -2,17 +2,17 @@
 
 /**
  * @file
- * Base class for AMPProject (Google Accelerated Mobile Pages) classes.
+ * Base class for PHPAmpHTML (Google Accelerated Mobile Pages) classes.
  */
 
-namespace minnur\AMPProject;
+namespace PHPAmpHTML;
 
-use minnur\AMPProject\Base;
+use PHPAmpHTML\Base;
 
 /**
- * AMPProject class.
+ * PHPAmpHTML class.
  */
-class AMPProject extends Base {
+class PHPAmpHTML extends \PHPAmpHTML\Base {
 
   protected $version = '0.1';
 

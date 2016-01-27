@@ -5,12 +5,12 @@
  * Image component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Image Component.
  */
-class Img extends Component {
+class Img extends \PHPAmpHTML\Base {
 
   protected $width;
   protected $height;
@@ -23,6 +23,25 @@ class Img extends Component {
   protected $layout;
   protected $media;
   protected $palceholder;
+
+  /**
+   * Define optional properties.
+   */
+  protected function optional() {
+    return [
+      'data_attributes',
+      'placeholder',
+      'fallback',
+      'is_figure',
+      'caption',
+      'srcset',
+      'alt',
+      'attribution',
+      'layout',
+      'media',
+      'palceholder',
+    ];
+  }
 
   /**
    * Setter for figure.
@@ -190,19 +209,9 @@ class Img extends Component {
   }
 
   /**
-   * Validate required attributes.
-   */
-  public function validate() {
-    if (empty($this->getSrc())) {
-      $this->triggerError('Required attribute is missing.');
-    }
-  }
-
-  /**
    * Render tag.
    */
   public function render() {
-    parent::render();
     $image = '<amp-img'
       . $this->setAttribute('src', $this->getSrc())
       . $this->setAttribute('alt', $this->getAlt())

@@ -5,12 +5,12 @@
  * Audio component.
  */
 
-namespace minnur\AMPProject\Components;
+namespace PHPAmpHTML\Components;
 
 /**
  * Audio Component.
  */
-class Audio extends Component {
+class Audio extends \PHPAmpHTML\Base {
 
   protected $src;
   protected $width;
