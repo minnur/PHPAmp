@@ -1,0 +1,21 @@
+{
+    "name" : "minnur/ampproject",
+    "type": "library",
+    "description": "PHP Library to generate AMP tags.",
+    "keywords": ["amp", "ampproject", "google", "api"],
+    "version": "0.3.9",
+    "homepage": "https://github.com/minnur/AMPProject",
+    "license": "GPL",
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "1.5.*",
+        "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "minnur\\AMPProject\\": "src/"
+        }
+    }
+}
